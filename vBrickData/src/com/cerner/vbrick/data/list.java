@@ -57,7 +57,7 @@ public class list
 		httpPost.setHeader("Content-Type", "application/json");
 
 		String inputJson = "{\n" + "  \"username\": \"SA050728\",\n" +
-				"  \"password\": \"Manjula24\",\n" + "}";
+				"  \"password\": \"Enter your password\",\n" + "}";
 
 		StringEntity stringEntity = new StringEntity(inputJson);
 		httpPost.setEntity(stringEntity);
